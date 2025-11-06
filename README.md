@@ -4,8 +4,8 @@
 
 This project demonstrates a simple food delivery **route optimization system** using graph theory. By modeling delivery routes as a weighted graph, the system finds the **shortest and most efficient path** from restaurants to users using **Dijkstra’s algorithm**. It visually simulates deliveries on an interactive map interface built with React.
 
-![Delivery Simulation Preview] (ss1.png)
-![Delivery Simulation Preview] (ss2.png)
+![Delivery Simulation Preview](ss1.png)
+![Delivery Simulation Preview](ss2.png)
 
 ---
 
