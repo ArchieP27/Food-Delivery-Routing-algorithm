@@ -1,16 +1,54 @@
-# React + Vite
+# 🍕 Food Delivery Route Optimization Using Dijkstra’s Algorithm
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📖 Overview
 
-Currently, two official plugins are available:
+This project demonstrates a simple food delivery **route optimization system** using graph theory. By modeling delivery routes as a weighted graph, the system finds the **shortest and most efficient path** from restaurants to users using **Dijkstra’s algorithm**. It visually simulates deliveries on an interactive map interface built with React.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![Delivery Simulation Preview] (ss1.png)
+![Delivery Simulation Preview] (ss2.png)
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ⚙️ Features
 
-## Expanding the ESLint configuration
+* **Interactive map visualization**
+* Multiple user and restaurant nodes
+* Automatic **shortest path computation**
+* Delivery scooter animation from restaurant → user
+* Simple and clean UI
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🧮 Optimization Technique
+
+The core of the project is **Dijkstra’s Algorithm**, a classic graph-based optimization method for shortest path problems. It minimizes total travel **distance and time**, ensuring optimal delivery routing.
+
+---
+
+## 🧠 Tech Stack
+
+| Category | Technology | Purpose |
+| :--- | :--- | :--- |
+| **Frontend** | React.js | User Interface |
+| **Algorithm** | Dijkstra’s Algorithm | Graph Optimization |
+| **Language** | JavaScript | Core logic |
+| **Visualization** | SVG-based Map | Interactive map rendering |
+
+---
+
+## 🚀 How to Run
+
+Follow these steps to set up and run the application locally:
+
+```bash
+# Clone the repository
+git clone [https://github.com/yourusername/food-delivery-optimization.git](https://github.com/yourusername/food-delivery-optimization.git)
+
+# Navigate to the project folder
+cd food-delivery-optimization
+
+# Install dependencies
+npm install
+
+# Run the app
+npm start
